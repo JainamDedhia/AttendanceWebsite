@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Time</title>
+    <link rel="stylesheet" href="checkout-time.css">
+</head>
+<body>
+    <div class="container1">
+        <h2>CHECKOUT TIME</h2>
+        <div id="checkout-time-display" class="checkout-time"></div>
+        <script>
+            // Get the checkout time from the URL parameters
+            const urlParams = new URLSearchParams(window.location.search);
+            const checkoutTime = urlParams.get('time');
+            document.getElementById('checkout-time-display').innerText = `Your checkout time is: ${checkoutTime}`;
+        </script>
+    </div>
+</body>
+</html>

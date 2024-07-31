@@ -1,0 +1,43 @@
+
+.login-container {
+    background-color: #fff;
+    padding: 18px 30px;
+    border-radius: 5px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+}
+
+.input-group label{
+display: block;
+margin-bottom: 5px;
+
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container img {
+    width: 100px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add margin below the image */
+    margin-top: 10px;
+    display: block; /* Make the image a block element */
+    margin: auto; /* Center the image horizontally */
+    padding-bottom: 20px;
+    position: relative;
+    bottom: 40px;
+}
+h2 {
+    text-align: center;
+   position: relative;
+    bottom: 10px;
+    top: 67px;
+}
+::placeholder{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
